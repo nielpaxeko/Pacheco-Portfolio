@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Avelire";
+  src: url("../fonts/AVELIRE.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Vogue";
+  src: url("../fonts/Vogue.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Butler";
+  src: url("../fonts/Butler_Medium_Stencil.otf") format("truetype");
+}
+/* Fonts */
+.butler {
+  font-family: "Butler", sans-serif;
+}
+.avelire {
+  font-family: "Avelire", sans-serif;
+}
+.header {
+  background-color: aliceblue;
+  height: 75vh;
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+.profile-intro {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.profile-bio {
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.profile-pic {
+  clip-path: circle();
+  height: 75%;
+}
+
+@media (max-width: 1200px) {
+  .profile-intro {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+}
