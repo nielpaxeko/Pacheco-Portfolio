@@ -18,12 +18,50 @@
   font-family: "Avelire", sans-serif;
 }
 .header {
-  background-color: aliceblue;
-  height: 75vh;
+  background-color: #182335;
+  height: 60vh;
   display: flex;
   align-self: center;
+  padding: 10px;
+  margin: 0px;
   justify-content: space-evenly;
   gap: 5px;
+}
+.about {
+  height: 25vh;
+}
+/* Portfolio area */
+.portfolio {
+  background-color: #eae4cc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+.card {
+  min-width: 400px;
+  margin-top: 1rem;
+}
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:#182335;
+}
+.card-title {
+  color: #E15546;
+  text-align: center;
+}
+.card-text {
+  color: #182335;
+  text-align: justify;
+}
+.card-img {
+  height: 150px;
+  width: 150px;
+}
+.footer {
+  background-color: #eae4cc;
 }
 .profile-intro {
   display: flex;
@@ -37,6 +75,7 @@
   justify-content: center;
   flex-direction: column;
   text-align: center;
+  color: white;
 }
 .profile-pic {
   clip-path: circle();
@@ -51,3 +90,4 @@
     gap: 5px;
   }
 }
+
